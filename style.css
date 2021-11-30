@@ -1,1 +1,39 @@
+* {
+    box-sizing: border-box;
+}
 
+header {
+    position: relative;
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.vid-content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+img {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    	
+    float:left;
+    width:100px;
+    height:100px;
+    padding:20px;
+    padding-left:50px;
+}
