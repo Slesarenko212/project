@@ -19,7 +19,7 @@ header {
 }
 
 #video {
-    position: relative;
+    position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
@@ -36,6 +36,8 @@ header {
 }
 
 #tarif {
+    position: fixed;
+    bottom: 0;
     width: 200px;
     font-size: 18px;
     padding: 10px;
@@ -46,6 +48,8 @@ header {
 }
 
 #tarif:hover {
+    position: fixed;
+    bottom: 0;
     background: #ddd;
     color: black;
 }
