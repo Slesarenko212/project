@@ -66,6 +66,7 @@ header {
 
 /* Style the top navigation bar */
 .navbar {
+    position: fixed;
     overflow: hidden;
     background-color: #333;
 }
