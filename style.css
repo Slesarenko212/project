@@ -8,6 +8,12 @@ header {
     font-size: 17px;
 }
 
+#img {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
 #video {
     position: fixed;
     right: 0;
