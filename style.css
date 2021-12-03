@@ -34,3 +34,18 @@ header {
     width: 100%;
     padding: 20px;
 }
+
+#tarif {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#tarif:hover {
+    background: #ddd;
+    color: black;
+}
