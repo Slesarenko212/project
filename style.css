@@ -15,7 +15,7 @@ header {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
-    text-color: #ffffff;
+    text-color: white;
     padding: 20px;
 }
 
@@ -31,7 +31,7 @@ header {
     position: fixed;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
-    text-color: #ffffff;
+    text-color: white;
     width: 100%;
     padding: 20px;
 }
@@ -45,19 +45,16 @@ header {
     padding: 10px;
     border: none;
     background: red;
-    color: #ffffff;
+    color: white;
     cursor: pointer;
 }
 
 #tarif:hover {
     position: fixed;
     bottom: 0;
-    background: #ffffff;
+    background: white;
     color: black;
 }
-
-
-
 
 
 
@@ -69,8 +66,8 @@ header {
     position: fixed;
     overflow: hidden;
     background-color: #333;
+    cursor: pointer;
 }
-
 
 .navbar a {
     float: left;
@@ -80,10 +77,6 @@ header {
     padding: 14px 20px;
     text-decoration: none;
 }
-
-
-
-
 
 .navbar a:hover {
     background-color: #ddd;
