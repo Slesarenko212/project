@@ -69,6 +69,7 @@ header {
 
 .navbar {
     position: relative;
+    top: 20px
     left: 100px;
     background-color: black;
     cursor: pointer;
@@ -79,7 +80,7 @@ header {
     display: block;
     color: white;
     text-align: center;
-    padding: 10;
+    padding: 10px;
     text-decoration: none;
 }
 
