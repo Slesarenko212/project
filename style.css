@@ -53,8 +53,7 @@ header {
 }
 
 #tarif:hover {
-    position: fixed;
-    bottom: 0;
+
     background: white;
     color: black;
 }
