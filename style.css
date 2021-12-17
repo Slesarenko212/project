@@ -68,7 +68,8 @@ header {
 
 
 .navbar {
-    position: fixed;
+    position: relative;
+    left: 10px;
     overflow: hidden;
     background-color: #333;
     cursor: pointer;
