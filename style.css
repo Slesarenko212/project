@@ -69,9 +69,8 @@ header {
 
 .navbar {
     position: relative;
-    left: 10px;
-    overflow: hidden;
-    background-color: #333;
+    left: 100px;
+    background-color: black;
     cursor: pointer;
 }
 
