@@ -2,11 +2,6 @@
     box-sizing: border-box;
 }
 
-header {
-    margin: 0;
-    font-family: Arial;
-    font-size: 17px;
-}
 
 
 
@@ -24,87 +19,3 @@ header {
 }
 
 
-
-
-
-
-
-#img {
-    position: fixed;
-    margin: 0;
-    float: left;
-    bottom: 0;
-    top: 0;
-    width: 100px;
-    height: 50px;
-    text-color: white;
-    padding: 0;
-}
-
-#video {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
-
-.vid-content {
-    position: fixed;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    width: 100%;
-    padding: 20px;
-}
-
-#tarif {
-    margin: 0;
-    position: relative;
-    top: 10px;
-    bottom: 0;
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: red;
-    color: white;
-    cursor: pointer;
-}
-
-#tarif:hover {
-    margin: 0;
-    position: relative;
-    top: 10px;
-    bottom: 0;
-    background: white;
-    color: black;
-}
-
-
-
-
-
-
-
-.navbar {
-    position: relative;
-    top: 20px
-    left: 100px;
-    background-color: black;
-    cursor: pointer;
-}
-
-.navbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-}
-
-.navbar a:hover {
-    background-color: #ddd;
-    color: black;
-}
