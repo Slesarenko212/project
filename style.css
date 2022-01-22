@@ -8,6 +8,27 @@ header {
     font-size: 17px;
 }
 
+
+
+
+
+
+
+
+.visually-hidden.focusable:active, .visually-hidden.focusable:focus {
+    position: static !important;
+    overflow: visible;
+    clip: auto;
+    width: auto;
+    height: auto
+}
+
+
+
+
+
+
+
 #img {
     position: fixed;
     margin: 0;
