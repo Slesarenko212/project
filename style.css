@@ -31,3 +31,129 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a.icon-before .glyphicon {
+    margin-right: .25em
+}
+
+a.icon-after .glyphicon {
+    margin-left: .25em
+}
+
+.btn.icon-before .glyphicon {
+    margin-left: -.25em;
+    margin-right: .25em
+}
+
+.btn.icon-after .glyphicon {
+    margin-left: .25em;
+    margin-right: -.25em
+}
+
+body {
+    position: relative;
+}
+
+body.navbar-is-static-top {
+    margin-top: 0
+}
+
+body.navbar-is-fixed-top {
+    margin-top: 65px
+}
+
+body.navbar-is-fixed-bottom {
+    padding-bottom: 65px
+}
+
+
+
+
+
+
+
+ol, ul {
+    padding-left: 1.5em
+}
+
+
+
+
+
+
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block
+}
+
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden], template {
+    display: none
+}
+
+a {
+    background-color: transparent
+}
+
+a:active, a:hover {
+    outline: 0
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+
+
+
+
+
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+
+
+
+img {
+    border: 0
+}
