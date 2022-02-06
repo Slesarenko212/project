@@ -10,7 +10,6 @@ video {
 }
 
 .page-subheader {
-  text-color: white;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,4 +20,8 @@ video {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.page-subheader, .container{
+  text-color: white;
 }
