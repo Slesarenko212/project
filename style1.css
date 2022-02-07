@@ -425,17 +425,21 @@ body.navbar-is-fixed-bottom {
     text-align: center;
 }
 
-.support-main-description, .block-main-description {
-    font-size: 14px;
-    text-align: center;
-}
-
 .support-main-wrapper, .block-main-wrapper {
     text-align: center;
 }
 
 .support-main-btn, .block-main-btn {
     margin-bottom: 55px;
+}
+
+.support-main-description, .block-main-description {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 500;
+    color: rgba(255, 255, 255, .8);
+    margin-bottom: 55px
 }
 
 .support-achievement-title {
