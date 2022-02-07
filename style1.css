@@ -451,25 +451,7 @@ body.navbar-is-fixed-bottom {
     position: relative
 }
 
-.support-main, .block-main {
-    overflow: hidden;
-    position: relative;
-    color: #fff;
-    font-family: Montserrat
-}
 
-.support-main:before, .block-main:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: url(fon.png) no-repeat left top;
-    background-color: rgba(0, 0, 0, .8);
-    z-index: 10
-}
 
 .support-main h1, .block-main h1 {
     font-size: 52px;
