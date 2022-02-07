@@ -157,6 +157,44 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     display: block;
 }
 
+.support-main, .block-main {
+    padding-top: 40px;
+}
+
+.region-header {
+    padding-top: 0;
+}
+
+.support-main:before, .block-main:before {
+    background-size: contain;
+    background-position: center top;
+}
+
+.support-main h1, .block-main h1 {
+    font-size: 42px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.support-main-description, .block-main-description {
+    font-size: 14px;
+    text-align: center;
+}
+
+.support-main-wrapper, .block-main-wrapper {
+    text-align: center;
+}
+
+.support-main-btn, .block-main-btn {
+    margin-bottom: 55px;
+}
+
+.block-form-title, .section-title, .dc-section h2, .competencies h2, .advantages h2, .expertise h2, #block-tariffs .block-title, #block-views-block-team-new .block-title, #block-views-block-our-clients .block-title, #block-views-block-testimonials-block-1 .block-title, #block-views-block-keys-block .block-title, #block-views-block-blog-block-1 .block-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: initial;
+}
+
 .advantages {
     font-family: Montserrat;
 }
