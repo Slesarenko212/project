@@ -9,6 +9,46 @@ video {
      object-position: center;
 }
 
+.view-video .views-row .views-field-field-video .video-embed-field-launch-modal:before {
+    content: '\f16a';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 60px;
+    font-family: 'FontAwesome';
+    width: 60px;
+    height: 50px;
+    line-height: 50px;
+    margin: -25px 0 0 -25px;
+    opacity: .6;
+    color: #000;
+}
+
+.view-video .views-row .views-field-field-video .video-embed-field-launch-modal:hover:before {
+    color: red;
+    opacity: 1;
+}
+
+.view-video .views-row .views-field-field-user {
+    padding-left: 0;
+    margin: 10px 0;
+}
+
+#block-drupalcoder {
+    background: #fff;
+    padding: 50px 0
+}
+
+#block-drupalcoder .group-right {
+    padding-top: 7px
+}
+
+#block-drupal-support {
+    color: #fff;
+    text-align: center
+}
+
 .page-subheader {
   min-height: 100vh;
   display: -webkit-box;
