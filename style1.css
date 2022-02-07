@@ -157,6 +157,22 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     display: block;
 }
 
+body {
+    position: relative;
+}
+
+body.navbar-is-static-top {
+    margin-top: 0;
+}
+
+body.navbar-is-fixed-top {
+    margin-top: 65px;
+}
+
+body.navbar-is-fixed-bottom {
+    padding-bottom: 65px;
+}
+
 .collapsing {
     position: relative;
     height: 0;
