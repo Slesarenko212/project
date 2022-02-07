@@ -451,13 +451,6 @@ body.navbar-is-fixed-bottom {
     position: relative
 }
 
-.support-main .container, .block-main .container {
-    position: relative;
-    z-index: 15
-}
-
-
-
 .support-main, .block-main {
     overflow: hidden;
     position: relative;
