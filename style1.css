@@ -438,6 +438,57 @@ body.navbar-is-fixed-bottom {
     margin-bottom: 55px;
 }
 
+.support-achievement-title {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 5px;
+    position: relative
+}
+
+.support-achievement-title img {
+    vertical-align: baseline;
+    position: absolute;
+    left: 55px;
+    top: -16px
+}
+
+.support-achievements {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px
+}
+
+.support-achievements:after, .support-achievements:before {
+    width: 0
+}
+
+.support-achievement {
+    margin-bottom: 96px
+}
+
+.support-achievement-wrapper {
+    border-left: 3px solid #f14d34;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    min-height: 80px;
+    height: 100%
+}
+
+.support-achievement-description {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, .7)
+}
+
+.support-achievement:first-of-type .support-achievement-title {
+    font-size: 48px;
+    margin-top: -22px
+}
+
 .block-form-title, .section-title, .dc-section h2, .competencies h2, .advantages h2, .expertise h2, #block-tariffs .block-title, #block-views-block-team-new .block-title, #block-views-block-our-clients .block-title, #block-views-block-testimonials-block-1 .block-title, #block-views-block-keys-block .block-title, #block-views-block-blog-block-1 .block-title {
     font-size: 24px;
     margin-bottom: 20px;
