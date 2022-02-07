@@ -237,6 +237,20 @@ body.navbar-is-fixed-bottom {
     padding-bottom: 65px;
 }
 
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .collapsing {
     position: relative;
     height: 0;
