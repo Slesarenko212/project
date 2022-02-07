@@ -195,6 +195,44 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-top: initial;
 }
 
+.competency {
+    margin-bottom: 30px;
+}
+
+.competency-header, .competency-time {
+    text-align: center;
+}
+
+.competency-icon {
+    padding: 0;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.competency-icon:before {
+    left: -54px;
+}
+
+.competency-icon img {
+    margin: auto;
+}
+
+.competency-body {
+    font-size: 14px;
+    width: 200px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.competency-body br {
+    display: none;
+}
+
+.competency-title {
+    text-align: center;
+    font-size: 18px;
+}
+
 .advantages {
     font-family: Montserrat;
 }
