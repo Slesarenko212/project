@@ -1534,3 +1534,15 @@ textarea.input-lg, select[multiple].input-lg {
     height: 33px;
     line-height: 33px
 }
+
+.g-recaptcha {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+footer {
+    background: linear-gradient(254.72deg, rgba(255, 255, 255, .276) -114.85%, rgba(255, 255, 255, 0) 69.04%), url('/themes/bootstrap_dc/css/../images/D-flying.svg') no-repeat top center, url('/themes/bootstrap_dc/css/../images/D-footer.svg') no-repeat bottom right, #040613;
+    padding: 117px 0 54px;
+    color: #fff;
+    font-family: Montserrat
+}
