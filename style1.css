@@ -1315,6 +1315,41 @@ a:focus {
     color: #050c33;
 }
 
+.user-teaser {
+    text-align: left;
+    margin-bottom: 70px;
+}
+
+.user-teaser-photo {
+    border-radius: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 25px;
+}
+
+.user-teaser-name a, .user-teaser-name {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.37;
+    color: #050c33;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.user-teaser-post, .user-teaser-in-team {
+    padding: 0;
+    color: #505570;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.37;
+    margin-bottom: 5px;
+}
+
+.user-teaser-in-team {
+    font-size: 12px;
+}
+
 .panel {
     margin-bottom: 22px;
     background-color: #fff;
