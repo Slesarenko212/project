@@ -158,11 +158,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .advantages {
-    font-family: Montserrat
+    font-family: Montserrat;
 }
 
 .advantages.seo-context {
-    padding: 15px 0 0
+    padding: 15px 0 0;
 }
 
 .advantages h2 {
@@ -170,25 +170,25 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     text-align: center;
     color: #050c33;
     font-weight: bold;
-    font-size: 42px
+    font-size: 42px;
 }
 
 .advantages.seo-context h2 {
-    text-align: left
+    text-align: left;
 }
 
 .advantages-row {
     padding: 0 12px;
     position: relative;
-    z-index: 20
+    z-index: 20;
 }
 
 .with-expertise .advantages-row {
-    margin-bottom: -212px
+    margin-bottom: -212px;
 }
 
 .advantage-col {
-    margin-bottom: 5px
+    margin-bottom: 5px;
 }
 
 .advantage {
@@ -200,21 +200,21 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     height: 100%;
     position: relative;
     padding: 25px 25px 45px;
-    min-height: 292px
+    min-height: 292px;
 }
 
 .advantage-icon {
     position: absolute;
     right: 0;
     bottom: 0;
-    z-index: 5
+    z-index: 5;
 }
 
 .advantage-num {
     font-weight: bold;
     font-size: 12px;
     color: #828a9b;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 .advantage-title {
@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-size: 18px;
     color: #050c33;
     line-height: 1.22;
-    margin-bottom: 15px
+    margin-bottom: 15px;
 }
 
 .advantage-body {
@@ -231,18 +231,18 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 500;
     font-size: 16px;
     color: #4e5a73;
-    line-height: 1.37
+    line-height: 1.37;
 }
 
 .advantage-image {
     margin: -25px -25px 20px;
     border-radius: 5px 5px 0 0;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .advantage-header .advantage-image img {
     width: 100%;
-    filter: grayscale(0.7)
+    filter: grayscale(0.7);
 }
 
 .advantage.without-title .advantage-body:first-line {
@@ -250,7 +250,86 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-size: 18px;
     color: #050c33;
     line-height: 2;
-    display: inline-block
+    display: inline-block;
+}
+
+.expertise {
+    padding: 380px 0 150px;
+    position: relative;
+    background: linear-gradient(254.72deg, rgba(255, 255, 255, .276) -114.85%, rgba(255, 255, 255, 0) 69.04%), #040613;
+    font-family: Montserrat;
+    color: #fff;
+}
+
+.expertise:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(/themes/bootstrap_dc/css/../images/drupal-logo-2.svg) no-repeat right bottom;
+    background-size: contain;
+    z-index: 10;
+}
+
+.expertise .container {
+    position: relative;
+    z-index: 15;
+}
+
+.expertise h2 {
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 65px;
+}
+
+.expertise a {
+    color: #f14d34;
+}
+
+.expertise a:hover {
+    color: #f14d34;
+    text-decoration: underline;
+}
+
+.expertise-row {
+    margin-bottom: 0;
+}
+
+.expertise-img {
+    padding: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    z-index: 10;
+    max-width: 735px;
+}
+
+.expertise-img img {
+    width: 100%;
+    height: auto;
+    transform: translateY(16%);
+}
+
+.expertise-col {
+    margin-bottom: 30px;
+}
+
+.expertise-item-body {
+    border-left: 3px solid #f14d34;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    min-height: 88px;
+    height: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(256, 256, 256, .7);
+    width: 260px;
+    max-width: 100%;
 }
 
 p {
@@ -297,15 +376,15 @@ a:focus {
     transition: all 500ms;
     transform-origin: center;
     margin-bottom: 30px;
-    max-width: 500px
+    max-width: 500px;
 }
 
 .tariffs-row {
-    display: block
+    display: block;
 }
 
 .tariffs-row.row-flex {
-    display: flex
+    display: flex;
 }
 
 .tariffs-row.two-items .tariff {
@@ -318,16 +397,16 @@ a:focus {
     margin: 0 auto;
     height: 100%;
     position: relative;
-    padding-bottom: 80px
+    padding-bottom: 80px;
 }
 
 .tariffs-row.two-items .tariff-wrapper {
-    width: 400px
+    width: 400px;
 }
 
 .tariff-header {
     border-bottom: 2px solid #e5e5e5;
-    margin-bottom: 50px
+    margin-bottom: 50px;
 }
 
 .tariff-title {
@@ -335,7 +414,7 @@ a:focus {
     font-size: 22px;
     font-weight: bold;
     color: #f14d32;
-    line-height: 1.3
+    line-height: 1.3;
 }
 
 .tariff-price {
@@ -343,12 +422,12 @@ a:focus {
     font-weight: bold;
     color: #050c33;
     line-height: 1;
-    white-space: nowrap
+    white-space: nowrap;
 }
 
 .tariff-price.small {
     font-size: 52px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 .tariff-price .rub {
@@ -357,18 +436,18 @@ a:focus {
     vertical-align: text-top;
     display: inline-block;
     margin-left: -5px;
-    margin-top: 18px
+    margin-top: 18px;
 }
 
 .tariff-price.small .rub {
-    margin-top: 5px
+    margin-top: 5px;
 }
 
 .tariff-price-description {
     line-height: 1;
     color: #040c33;
     margin-bottom: 20px;
-    font-weight: 500
+    font-weight: 500;
 }
 
 .tarrif-body-item, .tariff-body-item {
@@ -379,7 +458,7 @@ a:focus {
     position: relative;
     padding-left: 30px;
     color: #4e5972;
-    font-weight: 500
+    font-weight: 500;
 }
 
 .tarrif-body-item:before, .tariff-body-item:before {
@@ -391,18 +470,18 @@ a:focus {
     width: 13px;
     height: 10px;
     background: url(/themes/bootstrap_dc/css/../images/checkmark.svg) no-repeat center;
-    background-size: contain
+    background-size: contain;
 }
 
 .tarrif-body-item.plus:before, .tariff-body-item.plus:before {
     background: url(/themes/bootstrap_dc/css/../images/plus.svg) no-repeat center;
     background-size: contain;
-    height: 13px
+    height: 13px;
 }
 
 .tarrif-body-item.minus:before, .tariff-body-item.minus:before {
     background: url(/themes/bootstrap_dc/css/../images/minus.svg) no-repeat center;
-    background-size: contain
+    background-size: contain;
 }
 
 .tariff-footer-btn {
@@ -421,45 +500,45 @@ a:focus {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0
+    bottom: 0;
 }
 
 .tariff-footer-btn:hover, .tariff-footer-btn:active, .tariff-footer-btn:focus {
     text-decoration: none;
     color: #fff;
-    background: #f14d34
+    background: #f14d34;
 }
 
 .col-flex:nth-of-type(2n) .tariff {
     transform: scale(1.1);
     z-index: 10;
-    box-shadow: 0 4px 60px rgba(162, 162, 162, .25)
+    box-shadow: 0 4px 60px rgba(162, 162, 162, .25);
 }
 
 .col-flex:nth-of-type(2n) .tariff .tariff-footer-btn {
     color: #fff;
-    background: #f14d34
+    background: #f14d34;
 }
 
 .tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff {
     transform: initial;
-    box-shadow: none
+    box-shadow: none;
 }
 
 .tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff .tariff-footer-btn {
     color: #f89c91;
-    background: #fff
+    background: #fff;
 }
 
 .tariff:hover, .tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff:hover {
     transform: scale(1.1);
     z-index: 15;
-    box-shadow: 0 4px 60px rgba(162, 162, 162, .25)
+    box-shadow: 0 4px 60px rgba(162, 162, 162, .25);
 }
 
 .tariff:hover .tariff-footer-btn, .tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff:hover .tariff-footer-btn {
     color: #fff;
-    background: #f14d34
+    background: #f14d34;
 }
 
 .tariffs-ps {
@@ -469,7 +548,7 @@ a:focus {
     color: #828a9b;
     width: 475px;
     max-width: 100%;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .tariffs-link {
@@ -479,12 +558,12 @@ a:focus {
     text-transform: uppercase;
     color: #050c33;
     text-decoration: underline;
-    transition: all 300ms
+    transition: all 300ms;
 }
 
 .tariffs-link:hover {
     text-decoration: none;
-    color: #f14d32
+    color: #f14d32;
 }
 
 .tariff-col {
@@ -772,7 +851,7 @@ a:focus {
     margin-bottom: 20px;
     font-family: Montserrat;
     overflow: hidden;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .blog.keys-2 {
@@ -782,14 +861,14 @@ a:focus {
     margin-bottom: 20px;
     font-family: Montserrat;
     overflow: hidden;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .keys-2__wrapper {
     border-radius: 5px;
     position: relative;
     overflow: hidden;
-    height: 475px
+    height: 475px;
 }
 
 .keys-2__wrapper:before {
@@ -802,7 +881,7 @@ a:focus {
     left: 0;
     background: linear-gradient(360deg, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, 0) 55.58%);
     z-index: 5;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 .keys-2__container {
@@ -811,7 +890,7 @@ a:focus {
     left: 0;
     right: 0;
     z-index: 10;
-    padding: 35px 40px
+    padding: 35px 40px;
 }
 
 .keys-2__header h2 {
@@ -820,34 +899,34 @@ a:focus {
     line-height: 1.25;
     margin-bottom: 5px;
     width: 320px;
-    max-width: 100%
+    max-width: 100%;
 }
 
 .keys-2__header h2 a {
-    color: #fff
+    color: #fff;
 }
 
 .keys-2__picture {
-    height: 100%
+    height: 100%;
 }
 
 .keys-2__picture div {
-    height: 100%
+    height: 100%;
 }
 
 .keys-2__picture picture {
-    height: 475px
+    height: 475px;
 }
 
 .keys-2__picture picture img {
-    height: 100%
+    height: 100%;
 }
 
 .keys-1__wrapper {
     border-radius: 5px;
     position: relative;
     overflow: hidden;
-    height: 475px
+    height: 475px;
 }
 
 .keys-1__wrapper:before {
@@ -860,18 +939,18 @@ a:focus {
     left: 0;
     background: linear-gradient(360deg, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, 0) 55.58%);
     z-index: 5;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 .keys-1__picture {
     overflow: hidden;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 .keys-1__picture picture {
     height: 475px;
     border-radius: 5px;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .keys-1__picture picture img {
@@ -880,7 +959,7 @@ a:focus {
     width: auto;
     max-width: initial;
     margin-left: 50%;
-    transform: translateX(-50%)
+    transform: translateX(-50%);
 }
 
 .keys-1__container {
@@ -889,7 +968,7 @@ a:focus {
     left: 0;
     right: 0;
     z-index: 10;
-    padding: 50px 40px
+    padding: 50px 40px;
 }
 
 .keys-1__content {
@@ -897,7 +976,7 @@ a:focus {
     margin-top: 20px;
     font-weight: 500;
     font-size: 14px;
-    color: #4e5a73
+    color: #4e5a73;
 }
 
 .keys-1__header h2 {
@@ -906,47 +985,47 @@ a:focus {
     line-height: 1.25;
     margin-bottom: 5px;
     width: 320px;
-    max-width: 100%
+    max-width: 100%;
 }
 
 .keys-1__header h2 a {
-    color: #fff
+    color: #fff;
 }
 
 .keys-1__header-date {
     color: #fff;
     opacity: .5;
     font-size: 12px;
-    line-height: 1.25
+    line-height: 1.25;
 }
 
 .view:not(.inverse) .blog.keys-1:nth-of-type(4n+1) .keys-1__wrapper:before, .inverse .blog.keys-1:nth-of-type(4n+2) .keys-1__wrapper:before {
-    display: none
+    display: none;
 }
 
 .view:not(.inverse) .blog.keys-1:nth-of-type(4n+1) .keys-1__picture, .inverse .blog.keys-1:nth-of-type(4n+2) .keys-1__picture, .view:not(.inverse) .blog.keys-1:nth-of-type(4n+1) .keys-1__picture picture img, .inverse .blog.keys-1:nth-of-type(4n+2) .keys-1__picture picture img {
-    height: 215px
+    height: 215px;
 }
 
 .view:not(.inverse) .blog.keys-1:nth-of-type(4n+1) .keys-1__content, .inverse .blog.keys-1:nth-of-type(4n+2) .keys-1__content {
-    display: block
+    display: block;
 }
 
 .view:not(.inverse) .blog.keys-1:nth-of-type(4n+1) .keys-1__container, .inverse .blog.keys-1:nth-of-type(4n+2) .keys-1__container {
     position: static;
-    padding: 40px 30px 30px
+    padding: 40px 30px 30px;
 }
 
 .view:not(.inverse) .blog.keys-1:nth-of-type(4n+1) .keys-1__header h2, .inverse .blog.keys-1:nth-of-type(4n+2) .keys-1__header h2 {
-    margin-top: 0
+    margin-top: 0;
 }
 
 .view:not(.inverse) .blog.keys-1:nth-of-type(4n+1) .keys-1__header h2 a, .inverse .blog.keys-1:nth-of-type(4n+2) .keys-1__header h2 a {
-    color: #050c33
+    color: #050c33;
 }
 
 .view:not(.inverse) .blog.keys-1:nth-of-type(4n+1) .keys-1__header-date, .inverse .blog.keys-1:nth-of-type(4n+2) .keys-1__header-date {
-    color: #050c33
+    color: #050c33;
 }
 
 .panel {
