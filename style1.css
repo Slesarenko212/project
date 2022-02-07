@@ -438,6 +438,114 @@ body.navbar-is-fixed-bottom {
     margin-bottom: 55px;
 }
 
+.support-achievement-title {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 5px;
+    position: relative
+}
+
+.support-achievement-title img {
+    vertical-align: baseline;
+    position: absolute;
+    left: 55px;
+    top: -16px
+}
+
+.support-achievements {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px
+}
+
+.support-achievements:after, .support-achievements:before {
+    width: 0
+}
+
+.support-achievement {
+    margin-bottom: 96px
+}
+
+.support-achievement-wrapper {
+    border-left: 3px solid #f14d34;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    min-height: 80px;
+    height: 100%
+}
+
+.support-achievement-description {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, .7)
+}
+
+.support-achievement:first-of-type .support-achievement-title {
+    font-size: 48px;
+    margin-top: -22px
+}
+
+.support-main, .block-main {
+    overflow: hidden;
+    position: relative;
+    padding: 130px 0 60px;
+    color: #fff;
+    font-family: Montserrat
+}
+
+.support-main:before, .block-main:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(fon.png) no-repeat left top;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 10
+}
+
+.support-main h1, .block-main h1 {
+    font-size: 52px;
+    line-height: 60px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px
+}
+
+.support-main-background video, .block-main-background video {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 5;
+    filter: blur(3px);
+    transform: scale(1.04)
+}
+
+.support-main .container, .block-main .container {
+    position: relative;
+    z-index: 15
+}
+
+.support-main-description, .block-main-description {
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 500;
+    color: rgba(255, 255, 255, .8);
+    margin-bottom: 55px
+}
+
 .block-form-title, .section-title, .dc-section h2, .competencies h2, .advantages h2, .expertise h2, #block-tariffs .block-title, #block-views-block-team-new .block-title, #block-views-block-our-clients .block-title, #block-views-block-testimonials-block-1 .block-title, #block-views-block-keys-block .block-title, #block-views-block-blog-block-1 .block-title {
     font-size: 24px;
     margin-bottom: 20px;
@@ -1105,6 +1213,22 @@ a:focus {
     display: block;
     font-weight: bold;
     font-size: 18px;
+}
+
+#block-tariffs {
+    padding: 160px 0 90px;
+    font-family: Montserrat;
+    background: url(/themes/bootstrap_dc/css/../images/D-background-opacity.svg) no-repeat right top, #fff;
+    background-size: 58%
+}
+
+#block-tariffs .block-title {
+    margin-top: 0;
+    margin-bottom: 65px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 42px
 }
 
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
