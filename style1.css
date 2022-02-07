@@ -1381,6 +1381,16 @@ a:focus {
     color: inherit;
 }
 
+.panel-title {
+    display: block;
+    margin: -10px -15px;
+    padding: 10px 15px
+}
+
+.panel-title, .panel-title:focus, .panel-title:hover, .panel-title:hover:focus {
+    color: inherit
+}
+
 .panel-info {
     border-color: #bce8f1;
 }
